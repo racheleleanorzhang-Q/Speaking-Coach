@@ -18,11 +18,11 @@ Speaking Coach 是一个仅供个人使用的英语口语提升 Agent。
 
 ## 2. 第一版方案
 
-第一版采用零代码、低维护方案：
+第一版采用低代码、低维护方案：
 
-1. 一个私人 Speaking Coach Agent；
-2. 一个 English Speaking Coach Skill；
-3. Agent Memory 中的个人学习档案；
+1. 一个固定的 Speaking Coach 项目；
+2. 一个项目级 English Speaking Coach Skill；
+3. 结构化本地学习档案，Memory 仅保存稳定偏好；
 4. ChatGPT Voice 作为日常语音入口。
 
 第一版暂不建设：
@@ -207,7 +207,7 @@ Skill 的三条硬规则：
 - 连续训练次数；
 - 当前阶段训练重点。
 
-第一版直接使用 Agent Memory，不建设数据库。
+第一版不建设数据库。稳定偏好可以使用 Memory；需要准确回顾和比较的高频问题、训练记录及进步证据保存在 `coach-data/` 下的结构化 Markdown 文件中。个人文件由 `.gitignore` 排除，不进入公开仓库。
 
 ### 第七步：配置快捷启动语
 
@@ -309,15 +309,22 @@ Skill 的三条硬规则：
 - 快捷启动语；
 - 验收测试清单。
 
-## 8. 下一步行动
+## 8. 实施状态与下一步行动
+
+截至第一版仓库实现：
+
+- 已创建项目级 `English Speaking Coach` Skill；
+- 已创建学习档案、训练记录和周复盘模板；
+- 已加入基线测试协议和 18 个行为验收场景；
+- 已配置个人训练数据的 Git 忽略规则。
 
 按以下顺序完成第一版：
 
 1. 填写个人学习档案；
 2. 进行基线测试；
-3. 配置私人 Agent；
-4. 创建并安装 English Speaking Coach Skill；
-5. 开启 Memory；
+3. 在 Codex 或 ChatGPT 中启用项目并确认 Skill 可被发现；
+4. 开启 Voice；
+5. 按需要开启 Memory；
 6. 添加快捷启动语；
 7. 完成验收测试；
 8. 连续使用两周；

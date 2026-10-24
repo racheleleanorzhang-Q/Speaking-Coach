@@ -1,0 +1,4 @@
+interface:
+  display_name: "English Speaking Coach"
+  short_description: "Personal voice-first English speaking practice coach"
+  default_prompt: "Use $english-speaking-coach to start today’s personalized speaking practice."

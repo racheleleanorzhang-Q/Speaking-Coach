@@ -1,0 +1,7 @@
+# Personal coaching data is local and must never be committed.
+/coach-data/learner-profile.md
+/coach-data/sessions/
+/coach-data/reports/
+
+# Local development environment.
+/.venv/
