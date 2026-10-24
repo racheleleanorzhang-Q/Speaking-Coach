@@ -36,6 +36,11 @@
 
 - [个人英语口语教练 Agent 实施方案](./implementation-plan.md)
 - [Skill 主说明](./.agents/skills/english-speaking-coach/SKILL.md)
+
+## 现在的使用方式：
+1. 在 Codex 中打开这个仓库。
+2. 开启语音聊天。
+3. 说：“使用 English Speaking Coach，开始今天的练习。你根据我的历史表现安排内容。”
 - [验收测试](./.agents/skills/english-speaking-coach/references/acceptance-tests.md)
 
 ## 产品形态
