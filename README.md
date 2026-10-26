@@ -34,6 +34,7 @@
 
 ## 文档
 
+- [英语口语与外贸实战：12 周可执行训练体系](./12-week-curriculum.md)
 - [个人英语口语教练 Agent 实施方案](./implementation-plan.md)
 - [Skill 主说明](./.agents/skills/english-speaking-coach/SKILL.md)
 
